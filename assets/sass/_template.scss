@@ -1023,17 +1023,17 @@ footer {
 }
 
 .cube1-inner.spinning {
-  -webkit-animation: spinCubeWebkit 8s infinite ease-in-out;
-     -moz-animation: spinCubeMoz    8s infinite ease-in-out;
-       -o-animation: spinCubeO      8s infinite ease-in-out;
-          animation: spinCube       8s infinite ease-in-out;
+  -webkit-animation: spinCubeWebkit 4.5s infinite ease-in-out;
+     -moz-animation: spinCubeMoz    4.5s infinite ease-in-out;
+       -o-animation: spinCubeO      4.5s infinite ease-in-out;
+          animation: spinCube       4.5s infinite ease-in-out;
 }
 
 .cube2 .cube1-inner.spinning {
-  -webkit-animation: spinCubeWebkit 7s infinite ease-in-out;
-     -moz-animation: spinCubeMoz    7s infinite ease-in-out;
-       -o-animation: spinCubeO      7s infinite ease-in-out;
-          animation: spinCube       7s infinite ease-in-out;
+  -webkit-animation: spinCubeWebkit 3.8s infinite ease-in-out;
+     -moz-animation: spinCubeMoz    3.8s infinite ease-in-out;
+       -o-animation: spinCubeO      3.8s infinite ease-in-out;
+          animation: spinCube       3.8s infinite ease-in-out;
 }
 
 @-webkit-keyframes spinCubeWebkit {
@@ -1121,10 +1121,10 @@ footer {
 
 
 .cube2-inner.spinning {
-  -webkit-animation: spinCubeWebkit 6s infinite ease-in-out;
-     -moz-animation: spinCubeMoz    6s infinite ease-in-out;
-       -o-animation: spinCubeO      6s infinite ease-in-out;
-          animation: spinCube       6s infinite ease-in-out;
+  -webkit-animation: spinCubeWebkit 3.2s infinite ease-in-out;
+     -moz-animation: spinCubeMoz    3.2s infinite ease-in-out;
+       -o-animation: spinCubeO      3.2s infinite ease-in-out;
+          animation: spinCube       3.2s infinite ease-in-out;
 }
 
 .cube2-inner figure {
@@ -1175,17 +1175,17 @@ footer {
 
 
 .cube3-inner.spinning {
-  -webkit-animation: spinCubeWebkit 5s infinite ease-in-out;
-     -moz-animation: spinCubeMoz    5s infinite ease-in-out;
-       -o-animation: spinCubeO      5s infinite ease-in-out;
-          animation: spinCube       5s infinite ease-in-out;
+  -webkit-animation: spinCubeWebkit 4.1s infinite ease-in-out;
+     -moz-animation: spinCubeMoz    4.1s infinite ease-in-out;
+       -o-animation: spinCubeO      4.1s infinite ease-in-out;
+          animation: spinCube       4.1s infinite ease-in-out;
 }
 
 .cube5 .cube3-inner.spinning {
-  -webkit-animation: spinCubeWebkit 4.5s infinite ease-in-out;
-     -moz-animation: spinCubeMoz    4.5s infinite ease-in-out;
-       -o-animation: spinCubeO      4.5s infinite ease-in-out;
-          animation: spinCube       4.5s infinite ease-in-out;
+  -webkit-animation: spinCubeWebkit 3.5s infinite ease-in-out;
+     -moz-animation: spinCubeMoz    3.5s infinite ease-in-out;
+       -o-animation: spinCubeO      3.5s infinite ease-in-out;
+          animation: spinCube       3.5s infinite ease-in-out;
 }
 
 .cube3-inner figure {
@@ -1391,7 +1391,7 @@ footer {
 .cube7 {
 	position: absolute;
 	bottom: 15%;
-	right: 450px;
+	right: 22%;
 	width: 100px;
 	height: 100px;
 }
@@ -1400,6 +1400,28 @@ footer {
 
 
 @media (max-width: 1199px) {
+	.cube6 {
+	    left: 476px;
+	}
+	.cube4 {
+	    top: 14%;
+	    left: 181px;
+	}
+	.cube1 {
+	    top: 56%;
+	    left: 111px;
+	}
+	.cube3 {
+	    top: 20%;
+	    right: 100px;
+	}
+	.cube5 {
+	    bottom: 2%;
+	}
+	.cube7 {
+	    bottom: 36%;
+	    right: 150px;
+	}
 	.subscribe-box {
 		.subscribe-inner {
 			h2 {
@@ -1600,6 +1622,16 @@ footer {
 
 @media (max-width: 767px) {
 	header .header-top ul.head_options {
+		display: none;
+	}
+
+	.cube1,
+	.cube2,
+	.cube3,
+	.cube4,
+	.cube5,
+	.cube6,
+	.cube7 {
 		display: none;
 	}
 
